@@ -51,6 +51,11 @@ public class SpoutText extends JavaPlugin {
     public WidgetAnchor location;
     
     public void onDisable() {
+        for (Player player : getServer().getOnlinePlayers()) {
+            SpoutPlayer sp = (SpoutPlayer) player;
+            if (sp.isSpoutCraftEnabled())
+                sp.getMainScreen().removeWidgets(this);
+        }
         System.out.println(this + " is now disabled!");
     }
 
