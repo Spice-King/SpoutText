@@ -5,5 +5,5 @@ generator: http://dinnerbone.com/minecraft/tools/pluginator/
 main: me.spiceking.plugins.spouttext.SpoutText
 name: SpoutText
 startup: postworld
-version: 1
+version: 1.0.1
 depends: [Spout]
