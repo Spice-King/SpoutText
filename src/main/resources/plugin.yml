@@ -1,0 +1,9 @@
+author: Spice King
+database: false
+description: Provides a provides a line of text on screen. Needs Spout server plugin and SpoutCraft client mod
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.spiceking.plugins.spouttext.SpoutText
+name: SpoutText
+startup: postworld
+version: 1
+depends: [Spout]
